@@ -4,6 +4,18 @@
 
 [Official Laravel Website & Documentation](http://laravel.com)
 
+## Requirements
+- [Basic Laravel Requirements](http://laravel.com/docs/install#requirements)
+- PHP & Laravel Familiarity
+- Terminal Familiarity
+
+## Usage
+- Clone the repo to your machine. 
+- Change database configrution in config/database.php
+- Run "php artisan migrate:install" in the root directory. 
+- Then run "php artisan migrate".
+- Visit your host should be working. 
+
 ## Used Tools
 
 - Laravel 3.2.5
