@@ -1,22 +1,19 @@
-# [Laravel](http://laravel.com) Quickstart for [Pagodabox](https://pagodabox.com/)
+# CoBin, A PasteBin like app Created with [Laravel](http://laravel.com) 
 
-Get a copy of Laravel running on Pagodabox in seconds.
-
-Based on the Boxfile method from: http://forums.laravel.com/viewtopic.php?id=890
+[Demo on Pagodabox](http://cobin.pagodabox.com)
 
 [Official Laravel Website & Documentation](http://laravel.com)
 
-[Official Pagodabox Website & Documentation](https://pagodabox.com/)
-
-## Usage
-
-- Install the quickstart on Pagodabox
-- Clone the repo on your machine
-- Open up Boxfile and modify the web1 name
-
-``web1:
-  name: YOUR_APP_NAME``
-
-## Features
+## Used Tools
 
 - Laravel 3.2.5
+- [Jquery Tabby](https://github.com/alanhogan/Tabby)
+- [Google Code Prettifier](https://code.google.com/p/google-code-prettify/)
+
+## Purpose
+
+- For Educational Purpose Only. 
+
+## Licence
+
+- I don't care, Feel free to do whatever you want :).
