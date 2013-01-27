@@ -1,0 +1,1 @@
+This is the /Users/jonathanhindi/Sites/cobin.dev/application/views/snippet/edit.blade.php view
