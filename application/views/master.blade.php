@@ -11,8 +11,13 @@
 		@yield('container')
 	</div>
 
+	<footer>
+		Developed by {{ HTML::link('http://www.twitter.com/JonathanHindi', '@JonathanHindi', array('target' => '_blank')); }}. 
+		Using {{ HTML::link('http://www.laravel.com', 'Laravel PHP Framework', array('target' => '_blank')); }} . For Educational Purposes.
+	</footer>
+
 	<script>
-		$('textarea').height( $(window).height() - 50 );
+		$('textarea').height( $(window).height() - 100 );
 		prettyPrint();
 		$('textarea').tabby();
 	</script>
