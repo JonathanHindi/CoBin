@@ -7,7 +7,7 @@
 
 		<div class="btn-group nav">
 			<a href="{{ URL::to_route('new_snippet')}}" class="btn btn-danger">Start Over</a>
-			{{ Form::submit('Save', array('class' => 'btn btn-success')) }}
+			{{ Form::submit('Save', array('class' => 'btn btn-primary')) }}
 		</div>
 
 	{{ Form::close() }}
