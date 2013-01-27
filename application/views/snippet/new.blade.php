@@ -12,9 +12,3 @@
 
 	{{ Form::close() }}
 @endsection
-
-@section('scripts')
-	<script>
-		$('textarea').height( $(window).height() - 50 );
-	</script>
-@endsection

@@ -4,7 +4,19 @@ class Snippets_Controller extends Base_Controller {
 
 	public $restful = true;      
 
-	public function post_create()
+	public function __construct()
+    {
+        //Assets
+        Asset::add('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js');
+        Asset::add('jquery.tabby', 'js/vendors/jquery.tabby.js', 'jquery');
+        Asset::add('prettify.js', 'code-prettify/src/prettify.js');
+        Asset::add('prettify.css', 'code-prettify/src/prettify.css', 'prettify.js');        
+        Asset::add('bootstrap-css', 'css/vendors/bootstrap.css');
+        Asset::add('style', 'css/style.css');
+        parent::__construct();
+    }
+
+    public function post_create()
     {
         $validation_errors = Snippet::validate(Input::get());
 
