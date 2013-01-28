@@ -17,9 +17,24 @@
 	</footer>
 
 	<script>
+		// Auto Setting the textarea height accoring to the window size.
 		$('textarea').height( $(window).height() - 100 );
+		
+		// Running code prettify
 		prettyPrint();
+
+		// Running tabby on textarea
 		$('textarea').tabby();
+
+		// Creatting the copy to clippboard link
+		// @TODO Disable popup and add a nice slidedown notification or effect.
+		$(document).ready(function(){
+
+		    $('a#copy-snippet').zclip({
+		        path:'js/vendors/zeroclip/ZeroClipboard.swf',
+		        copy:$('pre.snippet-code').text()
+		    });
+		});
 	</script>
 
 </body>	

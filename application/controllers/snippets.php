@@ -12,6 +12,7 @@ class Snippets_Controller extends Base_Controller {
         Asset::add('prettify.js', 'code-prettify/src/prettify.js');
         Asset::add('prettify.css', 'code-prettify/src/prettify.css', 'prettify.js');        
         Asset::add('bootstrap-css', 'css/vendors/bootstrap.css');
+        Asset::add('jquery.zclip', 'js/vendors/zeroclip/jquery.zclip.js', 'jquery');
         Asset::add('style', 'css/style.css');
         parent::__construct();
     }
